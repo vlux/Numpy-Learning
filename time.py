@@ -1,3 +1,7 @@
+# shell:python time.py n
+#numpysum()输出不包括逗号，因为我们使用的是NumPy数组，不是Python自身的list容器，NumPy数组对象以专用数据结构来存储数值
+
+
 import sys
 from datetime import datetime
 import numpy as np
