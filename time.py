@@ -17,7 +17,7 @@ def pythonsum(n):
     b = range(n)
     c = []
 
-    for i in range(len(a))
+    for i in range(len(a)):
         a[i] = i ** 2
         b[i] = i ** 3
         c.append(a[i] + b[i])

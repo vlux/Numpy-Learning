@@ -21,7 +21,7 @@ atr = np.zeros(N)
 
 atr[0] = np.mean(truerange)
 
-for i in range(1,N)
+for i in range(1,N):
     atr[i] = (N-1) * atr[i-1] + truerange[i]
     atr[i] /= N
 
