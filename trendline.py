@@ -33,9 +33,9 @@ print "Tomorrows resistance",ra * (t[-1] + 1) + rb
 
 a1 = c[c > support]
 a2 = c[c < resistance]
-print "Number of points between bands 2nd approach", len(np.intersectld(a1,a2))
+print "Number of points between bands 2nd approach", len(np.intersectld(a1,a2)) #返回一个由两个数组的所有公共元素构成的数组
 
 plot(t,c)
 plot(t,support)
 plot(t,resistance)
-show()    
+show()
